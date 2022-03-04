@@ -1,0 +1,6 @@
+#SSH Barrage: 
+#!/bin/bash
+for (( c=1; c<=1000; c++ ))
+do
+   ssh RedAdmin@10.0.0.5
+done
